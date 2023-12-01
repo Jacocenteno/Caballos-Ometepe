@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - PARA PROBAR CÓDIGO</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <h1>Reservas</h1>
+  <form action="/enviar" method="post">
+    <input type="text" name="nombre" placeholder="Nombre">
+    <input type="tel" name="telefono" placeholder="Teléfono (WhatsApp)">
+    <input type="email" name="correo" placeholder="Correo electrónico">
+    <input type="date" name="fecha" placeholder="Fecha">
+    <input type="time" name="hora" placeholder="Hora de inicio">
+    <select name="servicio">
+      <option value="cascada">Cascada San Ramón</option>
+      <option value="mirador">Mirador La Argentina</option>
+      <option value="recorrido">Recorrido de dos horas</option>
+      <option value="atardecer">Paseo al atardecer</option>
+    </select>
+    <input type="number" name="personas" min="1" max="10" placeholder="Cantidad de personas">
+    <input type="submit" value="Reservar">
+    <div class="mensaje"></div>
+  </form>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
